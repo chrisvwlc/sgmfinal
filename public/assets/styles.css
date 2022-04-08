@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@400..800&display=swap');
+h1 {
+	font-size: clamp(2.488rem, 1.924rem + 1.41vw, 3.052rem);
+	/* font-variation-settings: "wdth" 600, "wght" 600, "opsz" 98; */
+	
+}
+
+@supports (font-variation-settings: normal) {
+	
+	h1 {
+		font-family: 'EB Garamond', serif;
+		/* font-variation-settings: MONO 0, CASL 0, wght 700, slnt 0, CRSV 0; */
+		font-variation-settings: "wght" 400;
+	}
+}
